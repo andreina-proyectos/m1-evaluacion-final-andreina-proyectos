@@ -79,27 +79,41 @@
 .main__section {
   height: 376px;
   display: flex;
-  background-color: lime;
 }
 
 .main__section__text {
+  display: flex;
+  flex-direction: column;
 }
 
 .main-section__insomnia {
-  display: block;
   width: 90px;
   color: #8ccbea;
   font-size: 14px;
   font-family: "Roboto-Regular";
   margin-top: 30px;
+  margin-bottom: 1px;
   height: 30px;
 }
 
 .main-section__title {
-  font-family: RobotoSlab;
+  font-family: "Roboto Slab", serif;
   font-size: 24px;
 }
 
 .main-section__paragraph {
   margin: 15px 0px 30px;
+}
+
+.main__button-go {
+  width: 76px;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 22.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f26002;
+  font-family: roboto;
+  border: 2px solid #f26002;
 }
