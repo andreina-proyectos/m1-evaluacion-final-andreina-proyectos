@@ -73,3 +73,23 @@
   align-items: center;
   transform: translatey(-53px);
 }
+
+/*styles para main_section*/
+
+.main__section {
+  height: 376px;
+  display: flex;
+  background-color: lime;
+}
+
+.main__section__text {
+}
+
+.main-section__insomnia {
+  color: #8ccbea;
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+
+  background-color: yellow;
+  margin-top: 30px;
+}
