@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   margin: 0 15px;
 }
@@ -19,7 +23,7 @@
   border: 0;
   width: 44px;
   height: 44px;
-  position: absolute;
+  position: fixed;
 }
 
 .menu-icon_image {
@@ -42,7 +46,6 @@
   text-align: center;
   width: 290px;
   color: #ffffff;
-  margin-bottom: 143px;
 }
 
 .hero__text__title {
@@ -53,7 +56,6 @@
 }
 
 .hero__text__subtitle {
-  font-family: "Roboto";
   font-size: 16px;
 }
 
@@ -61,6 +63,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 53px 0;
 }
 
 .scroll-down-button {
@@ -71,7 +74,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translatey(-53px);
 }
 
 /*styles para main_section*/
@@ -90,7 +92,7 @@
   width: 90px;
   color: #8ccbea;
   font-size: 14px;
-  font-family: "Roboto-Regular";
+
   margin-top: 30px;
   margin-bottom: 1px;
   height: 30px;
@@ -103,6 +105,9 @@
 
 .main-section__paragraph {
   margin: 15px 0px 30px;
+
+  font-size: 18px;
+  line-height: 1.67;
 }
 
 .main__button-go {
@@ -114,6 +119,23 @@
   justify-content: center;
   align-items: center;
   color: #f26002;
-  font-family: roboto;
+
   border: 2px solid #f26002;
+}
+
+.page__aside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 624px;
+  background-color: #eff9ff;
+}
+
+.aside__title {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
