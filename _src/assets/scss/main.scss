@@ -1,0 +1,48 @@
+$color-cerulean: #0271bc;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 15px;
+}
+
+.page__header {
+  position: relative;
+}
+
+.button-menu-icon {
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+
+.menu-icon_image {
+  width: 16px;
+  height: 14px;
+}
+
+.main__hero {
+  margin: 0;
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__text__title {
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+}
