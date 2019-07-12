@@ -47,6 +47,10 @@
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
+  &:hover {
+    color: black;
+    box-shadow: 20px;
+  }
 }
 
 /*MEDIA QUERIES 768PX TABLET*/

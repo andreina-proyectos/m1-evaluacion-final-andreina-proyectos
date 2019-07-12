@@ -21,6 +21,19 @@
   align-items: center;
 }
 
+@keyframes .scroll-top intro {
+  from {
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .footer__list-container {
   background-color: $color-footer;
   text-transform: uppercase;
