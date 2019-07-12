@@ -133,3 +133,31 @@
     margin: 30px 0 60px;
   }
 }
+
+/*MEDIA QUERIES 1200PX DESKTOP*/
+
+/*HERO*/
+
+@media all and (min-width: 1200px) {
+  .hero__text__title {
+    font-size: 100px;
+  }
+
+  .hero__text {
+    width: 1200px;
+  }
+
+  .scroll-down-button {
+    margin: 30px 0 13px;
+  }
+  /*SECTION*/
+
+  .main-section__title {
+    font-size: 32px;
+  }
+
+  .main__button-go {
+    width: 91px;
+    margin: 30px 0 60px;
+  }
+}

@@ -21,19 +21,6 @@
   align-items: center;
 }
 
-@keyframes .scroll-top intro {
-  from {
-    transform: scale(10) rotate(-150deg);
-    opacity: 0;
-    color: white;
-  }
-
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 .footer__list-container {
   background-color: $color-footer;
   text-transform: uppercase;
@@ -60,4 +47,16 @@
 
 .heart {
   color: $color-orange;
+}
+
+/*MEDIA QUERIES 768PX TABLET*/
+
+@media all and (min-width: 768px) {
+  .footer__list-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    transform: translatex(-30px);
+  }
 }
