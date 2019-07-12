@@ -13,22 +13,19 @@
 .aside__sections-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  row-gap: 45px;
   text-align: center;
+  list-style: none;
 }
 
 .aside__section {
   grid-column: 2/3;
-  width: 180px;
-  height: 63px;
+  margin-bottom: 45px;
+  text-align: center;
 }
 
 .aside__section-title {
   font-size: 18px;
   font-family: $font_slab;
-  width: 184px;
-  height: 30px;
 }
 
 .aside__section-content {
@@ -43,7 +40,7 @@
 .button-more-reasons {
   color: $color-white;
   font-size: 20px;
-  margin: 45px 68px 60px;
+  margin: 0px 68px 60px;
   text-align: center;
   align-self: center;
   background-color: $color-orange;
@@ -51,4 +48,24 @@
   height: 45px;
   border-radius: 22.5px;
 }
-/*MEDIA QUERY*/
+
+/*MEDIA QUERIES 768PX TABLET*/
+
+/*ASIDE*/
+
+@media all and (min-width: 768px) {
+  .aside__sections-container {
+    column-gap: 27.7px;
+  }
+
+  .aside__section-first {
+    grid-column: 1/2;
+    text-align: center;
+  }
+  .aside__section-second {
+  }
+
+  .aside__section-third {
+    grid-column: 3/4;
+  }
+}

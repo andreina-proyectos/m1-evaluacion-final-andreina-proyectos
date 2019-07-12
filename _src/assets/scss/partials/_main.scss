@@ -31,10 +31,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 53px 0;
 }
 
 .scroll-down-button {
+  margin: 45px 0 53px;
   background-color: $color-white;
   width: 45px;
   height: 45px;
@@ -72,7 +72,7 @@
 
 .main-section__paragraph {
   margin: 15px 0px 30px;
-  xcolor: $color-greyish;
+  color: $color-greyish;
   font-size: 18px;
   line-height: $height-paragraph;
 }
@@ -88,4 +88,42 @@
   color: $color-orange;
   border: 2px solid $color-orange;
   margin-bottom: 45px;
+}
+
+/*MEDIA QUERIES 768PX TABLET*/
+
+/*HERO*/
+
+@media all and (min-width: 768px) {
+  .hero__text__title {
+    font-size: 80px;
+  }
+
+  .hero__text {
+    width: 678px;
+  }
+
+  .hero__text__subtitle {
+    font-size: 24px;
+  }
+
+  .scroll-down-button {
+    margin: 30px 0 45px;
+  }
+  /*SECTION*/
+
+  .main-section__title {
+    font-size: 26px;
+  }
+
+  .main-section__paragraph {
+    margin: 30px 0px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .main__button-go {
+    width: 91px;
+    margin: 30px 0 60px;
+  }
 }
