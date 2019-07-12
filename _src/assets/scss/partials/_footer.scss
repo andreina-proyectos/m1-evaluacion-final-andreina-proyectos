@@ -1,10 +1,11 @@
 .page__footer {
-  background-color: blue;
+  background-color: $color-footer;
 }
 
 .scroll-top-container {
   display: flex;
   justify-content: center;
+  background-color: $color-footer;
 }
 
 .scroll-top {
@@ -12,7 +13,8 @@
   left: 138px;
   width: 45px;
   height: 45px;
-  background-color: green;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -20,5 +22,22 @@
 }
 
 .footer__list-container {
-  background-color: yellow;
+  background-color: $color-footer;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  list-style: none;
+  line-height: 1.88;
+}
+
+.footer__elements-list {
+  padding: 15px 0 30px;
+}
+
+.footer__socialmedia-list {
+  margin-bottom: 30px;
+}
+
+.instit-info {
 }
