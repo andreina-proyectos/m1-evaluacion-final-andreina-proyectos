@@ -1,0 +1,11 @@
+.container {
+  margin: 0 15px;
+}
+
+/*media query del container*/
+
+@media all and (min-width: 3000px) {
+  .container {
+    margin: 0 2.8125rem;
+  }
+}

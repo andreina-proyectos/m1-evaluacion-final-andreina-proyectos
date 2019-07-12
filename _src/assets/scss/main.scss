@@ -1,4 +1,10 @@
 /*partials*/
+@import "core/variables.scss";
+@import "layouts/container.scss";
+@import "partials/header.scss";
+@import "partials/main.scss";
+@import "partials/aside.scss";
+@import "partials/footer.scss";
 
 * {
   margin: 0;
@@ -7,135 +13,5 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-}
-
-.container {
-  margin: 0 15px;
-}
-
-.page__header {
-  position: relative;
-}
-
-.button-menu-icon {
-  background-color: #0271bc;
-  border: 0;
-  width: 44px;
-  height: 44px;
-  position: fixed;
-}
-
-.menu-icon_image {
-  width: 16px;
-  height: 14px;
-}
-
-.main__hero {
-  height: 100vh;
-  background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.hero__text {
-  text-align: center;
-  width: 290px;
-  color: #ffffff;
-}
-
-.hero__text__title {
-  font-family: "Roboto Slab", serif;
-  font-size: 42px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.hero__text__subtitle {
-  font-size: 16px;
-}
-
-.scroll-down-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 53px 0;
-}
-
-.scroll-down-button {
-  background-color: #ffffff;
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*styles para main_section*/
-
-.main__section {
-  height: 376px;
-  display: flex;
-}
-
-.main__section__text {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-section__insomnia {
-  width: 90px;
-  color: #8ccbea;
-  font-size: 14px;
-
-  margin-top: 30px;
-  margin-bottom: 1px;
-  height: 30px;
-}
-
-.main-section__title {
-  font-family: "Roboto Slab", serif;
-  font-size: 24px;
-}
-
-.main-section__paragraph {
-  margin: 15px 0px 30px;
-
-  font-size: 18px;
-  line-height: 1.67;
-}
-
-.main__button-go {
-  width: 76px;
-  height: 45px;
-  background-color: transparent;
-  border-radius: 22.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #f26002;
-
-  border: 2px solid #f26002;
-}
-
-.page__aside {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  height: 624px;
-  background-color: #eff9ff;
-}
-
-.aside__title {
-  grid-column: 1 / 4;
-  grid-row: 1 / 4;
-  font-family: "Roboto Slab", serif;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
+  font-family: $font_roboto;
 }

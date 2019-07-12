@@ -1,0 +1,92 @@
+.main__hero {
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero__text {
+  text-align: center;
+  width: 290px;
+  color: $color-white;
+}
+
+.hero__text__title {
+  font-family: $font_slab;
+  font-size: 42px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.hero__text__subtitle {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.scroll-down-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 53px 0;
+}
+
+.scroll-down-button {
+  background-color: $color-white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*styles para main_section*/
+
+.main__section {
+  height: 376px;
+  display: flex;
+}
+
+.main__section__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section__insomnia {
+  width: 90px;
+  color: $color-lightblue;
+  font-size: 14px;
+
+  margin-top: 30px;
+  margin-bottom: 1px;
+  height: 30px;
+}
+
+.main-section__title {
+  font-family: $font_slab;
+  font-size: 24px;
+}
+
+.main-section__paragraph {
+  margin: 15px 0px 30px;
+  xcolor: $color-greyish;
+  font-size: 18px;
+  line-height: $height-paragraph;
+}
+
+.main__button-go {
+  width: 76px;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 22.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-orange;
+
+  border: 2px solid $color-orange;
+}
